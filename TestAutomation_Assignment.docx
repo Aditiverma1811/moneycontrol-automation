@@ -1,0 +1,41 @@
+Folder Structure
+moneycontrol-automation/
+├── requirements.txt
+├── utils.py
+├── test_api.py
+├── test_login_watchlist.py   ← include with comment: "UI test skipped due to Codespaces limitations"
+├── stocks.csv
+├── Screenshots/              ← may be empty
+├── Test_Results/             ← contains Allure output
+├── TestAutomation_Assignment.docx
+
+# Test Automation Assignment – Moneycontrol Watchlist
+
+## Scope
+- Automate login and watchlist operations on moneycontrol.com
+- Add stocks from CSV
+- Validate API responses using RapidAPI
+- Generate Allure reports
+
+## Tools Used
+- Python
+- Selenium WebDriver
+- Pytest
+- Allure-pytest
+- Requests
+- GitHub Codespaces
+
+## Notes
+- UI test was skipped due to Codespaces limitations (Chrome binary not available).
+- API tests were executed successfully.
+- Allure results are included.
+
+## How to Run
+1. Install dependencies: `pip install -r requirements.txt`
+2. Run tests: `pytest test_api.py --alluredir=Test_Results`
+3. Allure results saved in `Test_Results/`
+
+## Deliverables
+- Source code
+- Allure results
+- Assignment report
